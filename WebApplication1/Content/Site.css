@@ -1,6 +1,88 @@
-﻿body {
+﻿.row{
+    float:none;
+    position:center;
+    margin:unset;
+}
+
+.reviewBox{
+    background-color:rgba(224, 224, 224, 0.9);
+    border:2px solid;
+    margin:1%;
+    border-color:#757575;
+    width:31%;
+    height:225px;
+}
+#reviewText {
+    float:none;
+    text-align:center;
+}
+#swanky{
+    font-family: 'Fontdiner Swanky', cursive;
+}
+#monty{
+    font-family: 'Montserrat', sans-serif;
+}
+#nova{
+    font-family: 'Nova Oval', cursive;
+}
+
+.navbar-inverse .navbar-brand{
+    color:white;
+}
+.navbar-inverse .navbar-brand:hover{
+    color:lightgray;
+    background-color:#3d3d5c;
+}
+
+.navbar-header{
+    font-family: 'Fascinate', cursive;
+}
+
+.navbar-inverse {
+    background-color: #29293d;
+    border-color: #14141f;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+    font-family: 'Catamaran', sans-serif;
+    font-size:18px;   
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: lightgray;   
+    background-color:#3d3d5c;
+}
+.jumbotron{
+    background-image:url('../Images/jumboback.png');
+    font-family: 'Catamaran', sans-serif;
+    color:white;
+    border-style:solid;
+    border-color:#757575;
+}
+#jumboText{
+    background-color:rgba(82, 82, 122, 0.9);
+    padding:1%;
+    width:50%;
+}
+#jumboText h1{
+    font-style:italic;
+}
+#footy{
+    width:100%;
+    border-top:1px;
+    border-top-style:solid;
+    border-top-color:#757575;
+    background-color:rgb(235, 235, 235);
+    font-size:10px;
+    padding-bottom:0px;
+}
+#footy p{
+    margin-bottom:0px;
+}
+body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    background-color:#f2f2f2;
+    font-family: 'Catamaran', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */

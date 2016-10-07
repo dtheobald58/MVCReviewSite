@@ -11,9 +11,10 @@ namespace WebApplication1.Models
     {
         [Key]
         public int ID { get; set; }
-        public string Subject { get; set; }
+        public string Title{ get; set; }
+        [Display(Name = "Review Date")]
         public DateTime ReviewDate { get; set; }
-        public string ReviewSummary { get; set; }
+        public string Content { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }

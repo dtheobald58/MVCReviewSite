@@ -65,3 +65,10 @@ c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebAppl
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\bin\System.Web.WebPages.Razor.xml
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\obj\Debug\WebApplication1.dll
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\obj\Debug\WebApplication1.pdb
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\bin\EntityFramework.dll
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\bin\EntityFramework.SqlServer.dll
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\bin\EntityFramework.xml
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\bin\EntityFramework.SqlServer.xml
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\obj\Debug\WebApplication1.Migrations.InitialCreate.resources
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.Cache
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\WebApplication1\obj\Debug\WebApplication1.Migrations.ChangeReviewModel.resources

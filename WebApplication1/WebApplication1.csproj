@@ -161,6 +161,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610071419030_InitialCreate.cs" />
+    <Compile Include="Migrations\201610071419030_InitialCreate.Designer.cs">
+      <DependentUpon>201610071419030_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610071447135_ChangeReviewModel.cs" />
+    <Compile Include="Migrations\201610071447135_ChangeReviewModel.Designer.cs">
+      <DependentUpon>201610071447135_ChangeReviewModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Review.cs" />
     <Compile Include="Models\WebApplication1Context.cs" />
@@ -175,6 +184,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\jumboback.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -239,6 +249,14 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201610071419030_InitialCreate.resx">
+      <DependentUpon>201610071419030_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610071447135_ChangeReviewModel.resx">
+      <DependentUpon>201610071447135_ChangeReviewModel.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
