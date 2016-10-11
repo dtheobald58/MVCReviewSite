@@ -1,20 +1,19 @@
-﻿.row{
-    float:none;
-    position:center;
-    margin:unset;
+﻿.reviewed{
+    background-color:rgba(224, 224, 224, 0.9);
+    border:1px solid;
+    border-color:#757575;
+    width:100%;
+    font-family: 'Catamaran', sans-serif;
+}
+#reviewTitle{
+    font-style:italic;
 }
 
 .reviewBox{
     background-color:rgba(224, 224, 224, 0.9);
-    border:2px solid;
-    margin:1%;
+    border:1px solid;
     border-color:#757575;
-    width:31%;
-    height:225px;
-}
-#reviewText {
-    float:none;
-    text-align:center;
+    height:250px;
 }
 #swanky{
     font-family: 'Fontdiner Swanky', cursive;
@@ -83,12 +82,13 @@ body {
     padding-bottom: 0px;
     background-color:#f2f2f2;
     font-family: 'Catamaran', sans-serif;
+    height:auto;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
